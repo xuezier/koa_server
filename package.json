@@ -1,0 +1,31 @@
+{
+  "name": "koa_server",
+  "version": "0.1.0",
+  "description": "router register framework depends koa@v2",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuezier/koa_server.git"
+  },
+  "author": "xuezi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuezier/koa_server/issues"
+  },
+  "homepage": "https://github.com/xuezier/koa_server#readme",
+  "dependencies": {
+    "bmob": "^2.1.0",
+    "co": "^4.6.0",
+    "co-body": "^4.2.0",
+    "colors": "^1.1.2",
+    "koa": "^2.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-router": "^5.4.0",
+    "moment": "^2.14.1",
+    "mongodb": "^2.2.2",
+    "qiniu": "^6.1.11"
+  }
+}

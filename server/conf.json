@@ -1,0 +1,14 @@
+{
+    "bmob": {
+        "APPLICATION_ID": "8f323c5967c3c1ca12209487bab6d1b6",
+        "REST_API_KEY": "0f1ac290b50198d3937208248b0e1b58",
+        "SECRET_KEY": "c36c373b3ba9d2ad",
+        "MASTER_KEY": "274d00f0535cbd2122c54160748636b8"
+    },
+    "qiniu": {
+        "ACCESS_KEY": "xayXOIOe8HWkfuXWJKQ8FktbBrZTOMjrkJhDOU7r",
+        "SECRET_KEY": "GZLiiL3ZwWcx3DyeHYU1o5yOOspa9NNyUTItTMlW",
+        "BUCKET": "dotnar",
+        "SERVER_URL": "http://7ktph2.com1.z0.glb.clouddn.com/"
+    }
+}

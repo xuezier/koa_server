@@ -1,7 +1,8 @@
 (function (params) {
+    global.co = require('co');
     var fs = require('fs');
     var files = fs.readdirSync(__dirname);
-    files.forEach(function (file) {
+    files.forEach((file) => {
         var name = file.replace('.t.js', '');
         var tool = {};
         // file.indexOf('.t.js') > -1 && (module.exports[name] = require(`${__dirname}/${file}`));

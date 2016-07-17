@@ -10,5 +10,6 @@
         "SECRET_KEY": "GZLiiL3ZwWcx3DyeHYU1o5yOOspa9NNyUTItTMlW",
         "BUCKET": "dotnar",
         "SERVER_URL": "http://7ktph2.com1.z0.glb.clouddn.com/"
-    }
+    },
+    "port": 555
 }

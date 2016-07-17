@@ -24,6 +24,7 @@
     "koa": "^2.0.0",
     "koa-convert": "^1.2.0",
     "koa-router": "^5.4.0",
+    "koa-session": "^3.3.1",
     "moment": "^2.14.1",
     "mongodb": "^2.2.2",
     "qiniu": "^6.1.11"

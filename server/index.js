@@ -1,26 +1,21 @@
+console.time('app start');
 const koa = require('koa');
 const app = new koa();
-require('./appConfig')
+const convert = require('koa-convert');
+
+require('./appConfig');
 require('../tools');
 
-var router = require('koa-router')()
+const session = require('koa-session');
+app.keys = ['keys', 'keykeys'];
+app.use(convert(session(app)));
 
-router.get('/aa', function* () {
-    var d = yield request('http://wx.dotnar.com/allApis',{
-        method:'get',
-        headers:{
-            'Content-Type':'application/json'
-        },
-        data:JSON.stringify({
-            username:'dotnar',
-            password:'123456'
-        })
-    });
-    // console.log(d)
-    this.body = d
-});
+app.use(convert(cors({
+    origin: ['*']
+})));
 
-app.use(router.routes());
-app.use(router.allowedMethods());
 
-app.listen(555)
+
+
+app.listen(appConfig.port);
+console.timeEnd('app start');

@@ -20,9 +20,9 @@ send a http.request,allowed 'POST','GET','PUT','DELETE'.
     data
 
 ## callback
-    has 3 paramters ,
-    statusCode,
-    response,
+    has 3 paramters 
+    statusCode
+    response
     body
 
 
